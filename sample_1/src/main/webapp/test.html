@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Real-Estate Case Study</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="" />
+
+<!-- css -->
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="css/jcarousel.css" rel="stylesheet" />
+<link href="css/flexslider.css" rel="stylesheet" />
+<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" />
+
+
+
+</head>
+<body>
+<div id="wrapper">
+	<!-- start header -->
+	<header>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <h1 style="background-color:red;">SVS Constructions</h1>
+                </div>
+                <div class="navbar-collapse collapse ">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</header>
+	<!-- end header -->
+	<section id="featured">
+
+	<!-- Slider -->
+        <div id="main-slider" class="flexslider">
+
+		<div class="flex-caption">
+
+                </div>
+            <ul class="slides">
+
+              <li>
+                <img src="img/slides/1.jpg" alt="" />
+
+              </li>
+              <li>
+                <img src="img/slides/2.jpg" alt="" />
+
+              </li>
+              <li>
+                <img src="img/slides/3.jpg" alt="" />
+
+              </li>
+            </ul>
+        </div>
+	<!-- end slider -->
+
+	</section>
+  <section class="search-form">
+      <div class="container">
+  <div class="row">
+  <div class="col-md-12 col-sm-12">
+  <div class="quick-search">
+
+    <div class="aligncenter"><h1 class="aligncenter">Welcome to SVS Constructions</h1><p> 
+
+				Welcome to SVS Constructions, your one stop licensed property developer and real estate agent in India. 
+				The simple route to buying a property in INDIA.</p></div>
+			</div>
+
+  </div></div>
+  </div></div>
+
+    </section>
+	
+
+	<section id="content">
+
+
+	<div class="container">
+    <div class="row">
+            <div class="col-md-5">
+                <div class="home-about-us">
+                   <h3 class="section-title">Get in touch with us..</h3>
+                    <p>Fill the below details for additional information.</p>
+                    <ul>
+						<div class="contact-form">
+						 <form method="get"  action=Real_estate onSubmit="alert('Thank you for showing intrest in us!! We will get back to you soon..!');">
+							<div class="col-sm-12">
+							<div class="form-group">
+							<input type="text" name="firstname" id="fName" class="form-control wow fadeInUp" placeholder="First Name" required/>
+							</div>
+							<div class="form-group">
+							<input type="text" name="lastname" id="lName" class="form-control wow fadeInUp" placeholder="Last Name" />
+							</div>
+							<div class="form-group">
+							<input type="text" name="address" id="address" class="form-control wow fadeInUp" placeholder="Address" />
+							</div>
+							<div class="form-group">
+							<input type="text" name="phone" id="mobileno" class="form-control wow fadeInUp" placeholder="Mobile Number" pattern="[1-9]{1}[0-9]{9}" required/>
+							</div>
+							<div class="form-group">
+							<input type="email" name="Email" id="emailid" class="form-control wow fadeInUp" placeholder="Email" required/>			
+							</div>
+							<div class="form-group">
+									<select id="pname" name="pname1" class="form-control wow fadeInUp">
+									<option>Project Name</option>
+									<option>Samarth Building</option>
+									<option>Bluway Building</option>
+									<option>Shri Complex</option>
+									<option>Ganesha Nivas</option>
+									</select>
+							</div>
+							<div class="form-group">
+									<select id="plocation" name="plocation"class="form-control">
+									<option>Project Location </option>
+									<option>Pune</option>
+									<option>Mumbai</option>
+									<option>Chennai</option>
+									<option>Tirunalvelli</option>
+									<option>Nagpur</option>
+									</select>
+							</div>
+							<div class="form-group">
+									<select id="ptype" name="ptype" class="form-control">
+									<option>Type Of Flat</option>
+									<option>1 BHK</option>
+									<option>2 BHK</option>
+									<option>3 BHK</option>
+									<option>4 BHK</option>
+									</select>
+							</div>							
+							<div class="form-group">
+							<textarea name="Message" rows="10" cols="20" id="message" class="form-control input-message wow fadeInUp"  placeholder="Additional Message/Query" ></textarea>
+							</div>
+							<div class="form-group">
+							<input type="submit" name="submit" id="sub" value="Submit" class="btn btn-success wow fadeInUp" />
+							</div>
+							</div>
+						</form>	
+					  	
+                    </ul>
+                </div>
+            </div>
+            <script>
+   				function fullwindowpopup(){
+     				 window.open("PopUp_Update.html","bfs","fullscreen,scrollbars")
+   					}
+			</script>
+            <div class="col-md-7">
+                <div class="project">
+                    <h3 class="section-title">Our Current Project</h3>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="project">
+                                <img src="img/pimg1.jpg" class="img-responsive" alt="">
+                                <div class="project-details">
+                                    <ul>
+                                        <li><strong>Project :</strong> Bluway Building , eValley, Pune</li>
+                                        <a href="javascript:void(0);" style="color: green" onclick="fullwindowpopup();"> Available Flats Click Here.... </a>									
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6">
+                            <div class="project">
+                                <img src="img/test.jpg" class="img-responsive" alt="">
+                                <div class="project-details">
+                                    <ul>
+                                        <li><strong>Project :</strong> Samarth Building, Mumbai</li>
+                                        <a href="javascript:void(0);" style="color: green" onclick="fullwindowpopup();"> Available Flats Click Here.... </a>									
+                                        
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6">
+                            <div class="project">
+                                <img src="img/pimg3.jpg" class="img-responsive" alt="">
+                                <div class="project-details">
+                                    <ul>
+                                        <li><strong>Project :</strong> Shri Complex, Chennai</li>
+                                        <a href="javascript:void(0);" style="color: green" onclick="fullwindowpopup();"> Available Flats Click Here.... </a>									
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6">
+                            <div class="project">
+                                <img src="img/test1.jpg" class="img-responsive" alt="">
+                                <div class="project-details">
+                                    <ul>
+                                        <li><strong>Project :</strong> Ganesha Nivas, Nagpur</li>
+                                        <a href="javascript:void(0);" style="color: green" onclick="fullwindowpopup();"> Available Flats Click Here.... </a>									
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+		<!-- Portfolio Projects -->
+		<div class="row">
+			<div class="col-lg-12">
+				<h3>Upcoming <span class="color">Projects</span></h3>
+				<div class="row">
+					<section id="projects">
+            <div class="col-md-3 col-sm-3">
+                                      <div class="project">
+                                          <img src="img/up1.jpg" class="img-responsive" alt="">
+                                          <div class="project-details">
+                                              <ul>
+                                                  <li><strong>Project :</strong> Anandam Building</li>
+                                                  <li><strong>Location :</strong> eVally, Pune</li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-3 col-sm-3">
+                            <div class="project">
+                                <img src="img/up2.jpg" class="img-responsive" alt="">
+                                <div class="project-details">
+                                    <ul>
+                                        <li><strong>Project :</strong> Pyramid City</li>
+                                        <li><strong>Location :</strong> eVally, Mumbai</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <div class="project">
+                                <img src="img/up3.jpg" class="img-responsive" alt="">
+                                <div class="project-details">
+                                    <ul>
+                                        <li><strong>Project :</strong> Plexus Complex</li>
+                                        <li><strong>Location :</strong> eVally, Chennai</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <div class="project">
+                                <img src="img/up4.jpg" class="img-responsive" alt="">
+                                <div class="project-details">
+                                    <ul>
+                                        <li><strong>Project :</strong> Bluway-1 Building</li>
+                                        <li><strong>Location :</strong> eVally, Nagpur</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+					</section>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	</section>
+	<div class="testimonial-area">
+    <div class="testimonial-solid">
+        <div class="container">
+            <div class="testi-icon-area">
+                <div class="quote">
+                    <i class="fa fa-microphone"></i>
+                </div>
+            </div>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="">
+                        <a href="#"></a>
+                    </li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1" class="">
+                        <a href="#"></a>
+                    </li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2" class="active">
+                        <a href="#"></a>
+                    </li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3" class="">
+                        <a href="#"></a>
+                    </li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item">
+                        <p>The best real estate company I have ever dealt with. Very professional, experienced and helpful agents and brokers. Highly recommend.</p>
+                        <p>
+                            <b>- Sagar Yadav -</b>
+                        </p>
+                    </div>
+                    <div class="item">
+                        <p>The best real estate company I have ever dealt with. Very professional, experienced and helpful agents and brokers. Highly recommend.</p>
+                        <p>
+                            <b>- Varsha Landge-</b>
+                        </p>
+                    </div>
+                    <div class="item active">
+                        <p>The best real estate company I have ever dealt with. Very professional, experienced and helpful agents and brokers. Highly recommend.</p>
+                        <p>
+                            <b>- Virat Kohli -</b>
+                        </p>
+                    </div>
+                    <div class="item">
+                        <p>The best real estate company I have ever dealt with. Very professional, experienced and helpful agents and brokers. Highly recommend.</p>
+                        <p>
+                            <b>- Lio Messi -</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3">
+				<div class="widget">
+					<h5 class="widgetheading">Our Contact</h5>
+					<address>
+					<strong>SVS Constructions</strong><br>
+					Talawade MIDC IT Park, Plot No. B-1 Software, MIDC Technology Park, Talwade, Pimpri-Chinchwad<br>
+					 Pin-411062 Pune INDIA.</address>
+					<p>
+						<i class="icon-phone"></i> Tel: +91-20-40701000 <br>
+						<i class="icon-envelope-alt"></i> contact.hitech@hitech.com
+					</p>
+				</div>
+			</div>
+			<div class="col-lg-3">
+					<div class="widget">
+					<h5 class="widgetheading">Projects</h5>
+					<ul class="link-list">
+						<li><a href="#">BlueWay Building.</a></li>
+						<li><a href="#">Plexus Buildiing.</a></li>
+						<li><a href="#">Pyramid City.</a></li>
+						<li><a href="#">Samarth Building.</a></li>
+						<li><a href="#">Shri Complex.</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3">
+					<div class="widget">
+					<h5 class="widgetheading">Recent News</h5>
+					<ul class="link-list">
+						<li><a href="#">Current Projects going on in Pune.</a></li>
+						<li><a href="#">Is about to finish.</a></li>
+						<li><a href="#">It will be available for booking soon.</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="sub-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					
+				</div>
+				<div class="col-lg-6">
+					<ul class="social-network">
+						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</footer>
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<!-- javascript================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox-media.js"></script> 
+<script src="js/portfolio/jquery.quicksand.js"></script>
+<script src="js/portfolio/setting.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/animate.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/validate.js"></script>
+</body>
+</html>
