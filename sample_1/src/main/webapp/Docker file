@@ -1,2 +1,2 @@
 FROM docker.io/nginx:latest
-COPY index1.O.html /usr/share/nginx/html
+COPY index1.0.html /usr/share/nginx/html
